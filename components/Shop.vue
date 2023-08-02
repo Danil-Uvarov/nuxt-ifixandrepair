@@ -24,12 +24,11 @@
 
 }
 
-.shop-img {
-  width: 100%;
-  height: 100%;
-}
+.shop-img {}
 
-.shop__title {}
+.shop__title {
+  max-width: 720px;
+}
 
 .title-main {
   margin: 0px;
