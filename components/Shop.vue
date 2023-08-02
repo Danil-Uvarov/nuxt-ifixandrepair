@@ -17,24 +17,22 @@
 <style>
 .shop {
   background-color: rgb(121, 210, 227);
-  padding: 180px 0px;
+  padding: 120px 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 42px;
+
 }
 
 .shop-img {
-  object-fit: contain;
-  max-width: 792px;
-  max-height: 488px;
+  width: 100%;
+  height: 100%;
 }
 
-
-
-.shop__title {
-  max-width: 720px;
-}
+.shop__title {}
 
 .title-main {
+  margin: 0px;
   font-weight: 700;
   font-size: 48px;
   color: #ffff;
@@ -47,13 +45,27 @@
   color: #ffff;
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 1300px) {
   .shop {
     background-color: rgb(121, 210, 227);
-    padding: 80px 0px;
+    padding: 60px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+  }
+
+  .title-main {
+    font-weight: 700;
+    font-size: 36px;
+    color: #ffff;
+  }
+
+  .chop-description {
+    margin-top: 38px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffff;
   }
 }
 
@@ -74,11 +86,18 @@
     max-height: 278px;
   }
 
+  .title-main {
+    font-weight: 700;
+    font-size: 26px;
+    color: #ffff;
+  }
+
   .chop-description {
     margin-top: 38px;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 500;
     color: #ffff;
   }
+
 }
 </style>

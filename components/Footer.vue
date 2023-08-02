@@ -20,7 +20,7 @@
             </li>
             <li class="navigation__social-link"><a href="https://instagram.com/ifixandrepairofficial"
                 class="social-block"><img src="/images/footerInstagramm.png" alt="">
-                <p>Instagramm</p>
+                <p>Instagram</p>
               </a>
             </li>
             <li class="navigation__social-link">

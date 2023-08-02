@@ -1,6 +1,6 @@
 <template>
   <Head>
-    <title>{{ title }}</title>
+    <Title>{{ title }}</Title>
     <Meta name="description" :content="content" />
   </Head>
 

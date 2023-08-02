@@ -170,8 +170,9 @@
 
 .step__descripion-text {
   margin: 0px;
-  padding: 0px;
+  padding: 0px 20px;
   margin-top: 114px;
+  text-align: center;
   margin-bottom: 67px;
   font-weight: 400;
   font-size: 18px;
@@ -203,14 +204,6 @@
     gap: 38px;
   }
 
-  .step__descripion-text {
-    margin: 0px;
-    padding: 0px;
-    margin-top: 54px;
-    margin-bottom: 67px;
-    font-weight: 400;
-    font-size: 18px;
-    color: #737375;
-  }
+
 }
 </style>

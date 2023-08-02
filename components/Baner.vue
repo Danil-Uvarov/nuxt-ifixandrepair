@@ -27,7 +27,6 @@
 }
 
 .baner__button {
-
   padding: 37px 0px;
   background-color:
     #1BD3E0;

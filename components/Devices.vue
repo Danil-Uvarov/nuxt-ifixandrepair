@@ -1,7 +1,7 @@
 <template>
   <section class="devices">
     <h2 class="devices-template">
-      Shiise your <strong>devices</strong>
+      Shoose your <strong>devices</strong>
     </h2>
     <nav class="devices__items-block">
       <ul class="devices__items-list">
