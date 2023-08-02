@@ -3,56 +3,40 @@
     <h2 class="devices-template">
       Shiise your <strong>devices</strong>
     </h2>
-
     <nav class="devices__items-block">
       <ul class="devices__items-list">
-        <a href="https://ifixandrepair.com/iphone-repairs">
-          <li class="device__item">
-            <img src="../public/images/smartphone 1.png" alt="" class="device-img">
-            <h5 class="device-name">Iphone</h5>
-          </li>
-        </a>
-        <a href="https://ifixandrepair.com/samsung-repairs">
-          <li class="device__item">
-            <img src="../public/images/smartphone2 1.png" alt="" class="device-img">
-            <h5 class="device-name">Samsung</h5>
-          </li>
-        </a>
-        <a href="https://ifixandrepair.com/smartphone-repairs">
-          <li class="device__item">
-            <img src="../public/images/other-smartphones 1.png" alt="" class="device-img">
-            <h5 class="device-name">Smartphone</h5>
-          </li>
-        </a><a href="https://ifixandrepair.com/tablet-repairs">
-          <li class="device__item">
-            <img src="../public/images/tablet 1.png" alt="" class="device-img">
-            <h5 class="device-name">Tablet</h5>
-          </li>
-        </a>
-        <a href="https://ifixandrepair.com/computer-repairs">
-          <li class="device__item">
-            <img src="../public/images/macbook 1.png" alt="" class="device-img">
-            <h5 class="device-name">Computer</h5>
-          </li>
-        </a>
-        <a href="https://ifixandrepair.com/game-console-repairs">
-          <li class="device__item">
-            <img src="../public/images/game-console 1.png" alt="" class="device-img">
-            <h5 class="device-name">Gaming console</h5>
-          </li>
-        </a>
-        <a href="https://ifixandrepair.com/drone-repairs">
-          <li class="device__item">
-            <img src="../public/images/drone 1.png" alt="" class="device-img">
-            <h5 class="device-name">D J I Drone</h5>
-          </li>
-        </a>
-        <a href="https://ifixandrepair.com/other-repairs">
-          <li class="device__item">
-            <img src="../public/images/smartwatch 1.png" alt="" class="device-img">
-            <h5 class="device-name">Other</h5>
-          </li>
-        </a>
+        <li class="device__item">
+          <img src="/images/smartphone 1.png" alt="" class="device-img">
+          <h5 class="device-name">Iphone</h5>
+        </li>
+        <li class="device__item">
+          <img src="/images/smartphone2 1.png" alt="" class="device-img">
+          <h5 class="device-name">Samsung</h5>
+        </li>
+        <li class="device__item">
+          <img src="/images/other-smartphones 1.png" alt="" class="device-img">
+          <h5 class="device-name">Smartphone</h5>
+        </li>
+        <li class="device__item">
+          <img src="/images/tablet 1.png" alt="" class="device-img">
+          <h5 class="device-name">Tablet</h5>
+        </li>
+        <li class="device__item">
+          <img src="/images/macbook 1.png" alt="" class="device-img">
+          <h5 class="device-name">Computer</h5>
+        </li>
+        <li class="device__item">
+          <img src="/images/game-console 1.png" alt="" class="device-img">
+          <h5 class="device-name">Gaming console</h5>
+        </li>
+        <li class="device__item">
+          <img src="/images/drone 1.png" alt="" class="device-img">
+          <h5 class="device-name">D J I Drone</h5>
+        </li>
+        <li class="device__item">
+          <img src="/images/smartwatch 1.png" alt="" class="device-img">
+          <h5 class="device-name">Other</h5>
+        </li>
       </ul>
     </nav>
   </section>
@@ -122,10 +106,13 @@
 
 
 .device__item {
-  box-shadow: 5px 10px 10px 5px #d3d3d3;
+  box-shadow: 5px 10px 10px 5px #F7F7F7;
   border-radius: 9px;
   list-style: none;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+
   padding: 15px 78px 26px 78px;
 }
 
@@ -146,6 +133,7 @@
 
 @media (max-width: 1120px) {
   .devices {
+    padding: 20px;
     margin-top: 60px;
     margin-bottom: 36px;
     display: flex;

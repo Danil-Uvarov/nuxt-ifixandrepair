@@ -1,6 +1,6 @@
 <template>
   <section class="shop">
-    <img src="../public/images/store_front 1.png" alt="" class="shop-img">
+    <img src="/images/store_front 1.png" alt="" class="shop-img">
     <section class="shop__title">
       <h3 class="title-main">Our iFixandRepair center located in Fort Lauderdale, Florida is your best option.
       </h3>
@@ -58,6 +58,10 @@
 }
 
 @media (max-width: 720px) {
+  .shop {
+    padding: 20px;
+  }
+
   .title-main {
     font-weight: 700;
     font-size: 28px;

@@ -9,7 +9,7 @@
             Fort Lauderdale Florida 33304
             United States</p>
           <div class="contact__phone">
-            <img src="../public/images/phone-call-auricular-symbol-in-black_icon-icons.com_56483 1.png" alt=""
+            <img src="/images/phone-call-auricular-symbol-in-black_icon-icons.com_56483 1.png" alt=""
               class="contact__phone-img">
             <p>Contact Details</p>
           </div>
@@ -18,7 +18,7 @@
         </div>
         <div class="contacts__time-working-block">
           <div class="time__working-title-block">
-            <img src="../public/images/clock-with-white-face_icon-icons.com_72804 1.png" alt="" class="time__working-img">
+            <img src="/images/clock-with-white-face_icon-icons.com_72804 1.png" alt="" class="time__working-img">
             <div class="time__working-title">Open Hours</div>
           </div>
           <nav class="contacts__time-working">
@@ -66,6 +66,7 @@
 <script setup lang ="ts"></script>
 <style>
 .google-navigation {
+  padding-right: 20px;
   width: 725px;
   height: 439px;
 }
@@ -96,7 +97,7 @@
   content: "";
   background: #dddddd;
   width: 30px;
-  left: 0;
+  left: 20px;
   height: 3px;
   position: absolute;
   bottom: -20px;
@@ -106,12 +107,11 @@
   content: "";
   background: #dddddd;
   width: 29px;
-  left: 0;
   height: 3px;
   position: absolute;
   bottom: -20px;
   background: #dfa530;
-  left: 30px;
+  left: 50px;
 }
 
 
@@ -120,6 +120,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 20px;
 }
 
 .contacts__description {
@@ -221,9 +222,11 @@
   }
 
   .google-navigation {
+    padding: 0px 20px;
     margin-top: 20px;
     margin: 0 auto;
-
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
 
@@ -231,6 +234,11 @@
 }
 
 @media (max-width: 720px) {
+  .contacts {
+    padding: 0px 20px;
+
+  }
+
   .contacts__description-block {
     margin-top: 30px;
     display: flex;
@@ -241,7 +249,7 @@
   }
 
   .google-navigation {
-    margin-top: 20px;
+
     margin: 0 auto;
     width: 400px;
     height: 200px;

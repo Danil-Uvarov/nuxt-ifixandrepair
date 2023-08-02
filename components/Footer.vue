@@ -3,7 +3,7 @@
     <section class="footer__container">
       <div class="primary__footer ">
         <div class="primary__block-logo">
-          <a href="https://ifixandrepair.com/"><img src="../public/images/logo 1.png" alt=""></a>
+          <a href="https://ifixandrepair.com/"><img src="/images/logo 1.png" alt=""></a>
           <p class="primary-slogan">Broken? Not Anymore.</p>
         </div>
         <nav class="primary__navigation">
@@ -14,18 +14,18 @@
           </ul>
           <ul class="navigation__social-list">
             <li class="navigation__social-link"><a href="https://facebook.com/ifixandrepair" class="social-block"><img
-                  src="../public/images/footerFacebook.png" alt="">
+                  src="/images/footerFacebook.png" alt="">
                 <p>Facebook</p>
               </a>
             </li>
             <li class="navigation__social-link"><a href="https://instagram.com/ifixandrepairofficial"
-                class="social-block"><img src="../public/images/footerInstagramm.png" alt="">
+                class="social-block"><img src="/images/footerInstagramm.png" alt="">
                 <p>Instagramm</p>
               </a>
             </li>
             <li class="navigation__social-link">
               <a href="https://www.google.com/maps/search/iFixandRepair/" class="social-block"><img
-                  src="../public/images/footerGoogle.png" alt="">
+                  src="/images/footerGoogle.png" alt="">
                 <p>Google</p>
               </a>
             </li>
@@ -59,8 +59,9 @@
 }
 
 .primary__block-logo {
-  max-width: 458px;
-  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .primary-slogan {
@@ -141,6 +142,7 @@
 }
 
 .email a {
+  margin-left: 6px;
   text-decoration: none;
   font-weight: 600;
   font-size: 22px;
@@ -166,6 +168,7 @@
 @media(max-width: 1200px) {
   .footer__wrapper {
     margin-top: 40px;
+    padding: 20px;
     display: flex;
     justify-content: center;
   }
@@ -193,6 +196,7 @@
 
   .primary__block-logo {
     display: flex;
+
     flex-direction: column;
     align-items: center;
   }

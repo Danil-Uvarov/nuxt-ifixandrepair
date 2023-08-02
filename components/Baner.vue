@@ -17,7 +17,7 @@
   background-position: center 0px;
   padding-top: 97px;
   padding-bottom: 97px;
-  background-image: url("../public/images/baner.png");
+  background-image: url("/images/baner.png");
 }
 
 .baner-serch {

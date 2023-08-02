@@ -1,4 +1,9 @@
 <template>
+  <Head>
+    <title>{{ title }}</title>
+    <Meta name="description" :content="content" />
+  </Head>
+
   <div class="page-wrapper">
     <TheHeader></TheHeader>
     <Baner></Baner>
@@ -17,5 +22,9 @@ import Shop from '~/components/Shop.vue';
 import Devices from '~/components/Devices.vue';
 import Steps from '~/components/Steps.vue';
 import Footer from '~/components/Footer.vue'
+
+import { ref } from 'vue';
+const content = "Find Repair Services for iPhone, Google, Samsung, Motorola, Macs, Laptops, and even Blackberries. We Repair All Kind of Electronics."
+const title = ref('Device Repairs - iFixandRepair')
 </script>
 <style></style>
