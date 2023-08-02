@@ -6,14 +6,15 @@
       </h1>
       <nav class="header__communication communication">
         <ul class="communication__list">
-          <li class="communication__geolocation"><img src="../public/images/Google_Maps_icon_(2020) 1.png" alt=""
-              class="geolocation-img"><a href="https://ifixandrepair.com/locations"></a></li>
-          <li class="communication__facebook"><img src="../public/images/Facebook_f_logo_(2021) 1.png" alt=""
-              class="facebook-img"><a href="https://facebook.com/ifixandrepair"></a></li>
-          <li class="communication__instagram"><img src="../public/images//Instagram_logo_2016 1.png" alt=""
-              class="instagram-img"><a href="https://instagram.com/ifixandrepairofficial"></a></li>
-          <li class="communication__phone"><img src="../public/images/Phone.png" alt="" class="phone-img"><a
-              href="https://ifixandrepair.com/contact"></a></li>
+          <li class="communication__geolocation"><a href="https://ifixandrepair.com/locations"><img
+                src="../public/images/Google_Maps_icon_(2020) 1.png" alt="" class="geolocation-img"></a></li>
+          <li class="communication__facebook"><a href="https://facebook.com/ifixandrepair">
+              <img src="../public/images/Facebook_f_logo_(2021) 1.png" alt="" class="facebook-img">
+            </a></li>
+          <li class="communication__instagram"><a href="https://instagram.com/ifixandrepairofficial"><img
+                src="../public/images//Instagram_logo_2016 1.png" alt="" class="instagram-img"></a></li>
+          <li class="communication__phone"><a href="https://ifixandrepair.com/contact"><img
+                src="../public/images/Phone.png" alt="" class="phone-img"></a></li>
         </ul>
       </nav>
     </section>
@@ -35,7 +36,7 @@
 
 .header__communication {
   display: flex;
-
+  justify-content: center;
 }
 
 .header__logo-img {
@@ -80,6 +81,8 @@
     list-style: none;
   }
 
+
+
   .header__logo-img {
     max-width: initial;
     max-height: 50px;
@@ -87,9 +90,8 @@
 }
 
 @media (max-width: 650px) {
-
   .header-container {
-    margin: 70px 0px 55px 0px;
+    margin: 30px 0px 15px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;

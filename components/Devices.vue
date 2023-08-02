@@ -100,13 +100,14 @@
   bottom: -20px;
 }
 
-. .devices-template .devices-template strong {
+.devices-template strong {
   font-weight: 500;
   font-size: 48px;
 }
 
 .devices__items-block {
   margin-top: 56px;
+  max-width: 1467px;
 }
 
 .devices__items-list {
@@ -141,5 +142,15 @@
   color: #000000;
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 1120px) {
+  .devices {
+    margin-top: 60px;
+    margin-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 </style>

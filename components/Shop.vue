@@ -50,7 +50,7 @@
 @media (max-width: 1120px) {
   .shop {
     background-color: rgb(121, 210, 227);
-    padding: 180px 0px;
+    padding: 80px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
