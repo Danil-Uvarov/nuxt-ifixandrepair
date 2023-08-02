@@ -31,7 +31,7 @@
             </li>
           </ul>
         </nav>
-        <div class="email"><span>Email:</span><a href="email:info@ifixandrepair.com">info@ifixandrepair.com</a></div>
+        <div class="email"><span>Email:</span><a href="mailto:info@ifixandrepair.com">info@ifixandrepair.com</a></div>
       </div>
       <h6 class="footer__secondary">
         Copyright 2023 iFixandRepair by <strong>iFixandRepair </strong>| All Rights Reserved

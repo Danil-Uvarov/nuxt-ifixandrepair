@@ -13,8 +13,8 @@
               class="contact__phone-img">
             <p>Contact Details</p>
           </div>
-          <div class="contact-number"><a href="number:+79547346202">954-734-6202</a> </div>
-          <div class="contact-email"><a href="email:Galleria@ifixandrepair.com">Galleria@ifixandrepair.com</a></div>
+          <div class="contact-number"><a href="tel:+79547346202">954-734-6202</a> </div>
+          <div class="contact-email"><a href="mailto:Galleria@ifixandrepair.com">Galleria@ifixandrepair.com</a></div>
         </div>
         <div class="contacts__time-working-block">
           <div class="time__working-title-block">
