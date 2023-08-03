@@ -82,6 +82,7 @@
 
 
 .navigation__list {
+  padding: 0px;
   margin: 0px;
   display: flex;
   flex-direction: column;

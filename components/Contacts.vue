@@ -55,15 +55,26 @@
       </div>
 
     </div>
+
     <iframe class="google-navigation"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.836919705086!2d-80.11544822580353!3d26.136859777118104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d901cf478d556f%3A0x15cccb01ecbb6015!2z0JPQsNC70LvQtdGA0LjRjyDRjdGCINCk0L7RgNGCLdCb0L7QtNC10YDQtNC10LnQuw!5e0!3m2!1sru!2sru!4v1690925424653!5m2!1sru!2sru"
       width="725" height="439" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
   </section>
 </template>
 
 <script setup lang ="ts"></script>
 <style>
-.google-navigation {}
+.google-navigation {
+  margin-right: 10px;
+  max-width: 725px;
+  width: 100%;
+
+}
+
+.frame__block {}
+
+
 
 .contacts {
   display: flex;
@@ -144,6 +155,8 @@
   margin-top: 24px;
 }
 
+
+
 .contact__phone p {
   margin: 0px;
   padding: 0px;
@@ -220,7 +233,7 @@
   font-size: 20px;
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 1450px) {
   .contacts {
     display: flex;
     flex-direction: column;
@@ -245,7 +258,7 @@
 
 @media (max-width: 720px) {
   .contacts {
-    padding: 0px 20px;
+    padding: 0px 20px 20px 20px;
   }
 
   .contacts__description-block {

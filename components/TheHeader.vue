@@ -49,10 +49,11 @@
 .communication {
   max-width: 350px;
   width: 100%;
-
 }
 
 .communication__list {
+  margin: 0px;
+  padding: 0px;
   gap: 50px;
   display: flex;
   justify-content: space-around;
@@ -74,6 +75,7 @@
 .communication__phone {}
 
 .phone-img {}
+
 
 @media (max-width: 1100px) {
   .communication__list {

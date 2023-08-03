@@ -1,6 +1,6 @@
 <template>
   <section class="steps__wrapper">
-    <h2 class="container__title">How to statr <strong>your help?</strong></h2>
+    <h2 class="container__title">How to start <strong>your help?</strong></h2>
     <nav class="steps__container">
       <ul class="step__list">
         <li class="step__block-img">

@@ -19,9 +19,9 @@
   background-color: rgb(121, 210, 227);
   padding: 120px 20px;
   display: flex;
-  justify-content: center;
   gap: 42px;
-
+  align-items: center;
+  justify-content: center;
 }
 
 .shop-img {}
@@ -45,7 +45,7 @@
   color: #ffff;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1330px) {
   .shop {
     background-color: rgb(121, 210, 227);
     padding: 60px 20px;
