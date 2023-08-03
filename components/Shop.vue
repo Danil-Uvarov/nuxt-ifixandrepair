@@ -31,6 +31,7 @@
 }
 
 .title-main {
+  max-width: 657px;
   margin: 0px;
   font-weight: 700;
   font-size: 48px;

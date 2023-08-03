@@ -65,6 +65,7 @@
 }
 
 .primary-slogan {
+  margin: 0px;
   margin-top: 57px;
   font-weight: 500px;
   font-size: 22px;

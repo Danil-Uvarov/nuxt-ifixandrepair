@@ -7,7 +7,7 @@
       <ul class="devices__items-list">
         <li class="device__item">
           <img src="/images/smartphone 1.png" alt="" class="device-img">
-          <h5 class="device-name">Iphone</h5>
+          <h5 class="device-name">iphone</h5>
         </li>
         <li class="device__item">
           <img src="/images/smartphone2 1.png" alt="" class="device-img">

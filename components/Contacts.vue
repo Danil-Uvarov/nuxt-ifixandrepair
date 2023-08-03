@@ -82,7 +82,6 @@
   margin: 0px;
   padding: 0px;
   position: relative;
-
   font-weight: 400;
   font-size: 48px;
 }
@@ -96,7 +95,7 @@
   content: "";
   background: #dddddd;
   width: 30px;
-  left: 20px;
+  left: 0px;
   height: 3px;
   position: absolute;
   bottom: -20px;
@@ -110,15 +109,14 @@
   position: absolute;
   bottom: -20px;
   background: #dfa530;
-  left: 50px;
+  left: 30px;
 }
 
 
 .contacts__description-block {
   margin-top: 30px;
   display: flex;
-  justify-content: center;
-  padding-left: 20px;
+
   gap: 36px;
 }
 
@@ -255,7 +253,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    justify-content: space-between;
+    align-items: center;
     margin-bottom: 20px;
 
   }
@@ -299,7 +297,7 @@
     list-style: none;
     gap: 10px;
     display: flex;
-    justify-content: space-between;
+
   }
 
   .contact__time-link {
@@ -307,6 +305,11 @@
     font-size: 18px;
   }
 
+  .contacts__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
 }
 </style>

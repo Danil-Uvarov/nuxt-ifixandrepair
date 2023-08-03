@@ -186,6 +186,8 @@
   gap: 11px;
 }
 
+
+
 @media(max-width: 1120px) {
   .steps__wrapper {
     padding-top: 35px;
