@@ -86,7 +86,7 @@
 
 .contacts__description-wrapper {
   max-width: 730px;
-  padding: 0px 10px;
+
 }
 
 .contacts-title {
@@ -238,7 +238,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
+    margin: 20 auto;
     margin-top: 10px;
     max-width: 1474px;
 
@@ -272,9 +272,9 @@
   }
 
   .google-navigation {
-    margin: 0 auto;
-    width: 300px;
+    width: 100%;
     height: 150px;
+
   }
 
   .contacts-title {
@@ -302,6 +302,10 @@
     bottom: -20px;
     background: #dfa530;
     margin-left: 15px;
+  }
+
+  .contacts__time-working-block {
+    align-items: center;
   }
 
   .contact__time-list {

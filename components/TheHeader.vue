@@ -99,18 +99,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    .communication__list {
-      gap: 45px;
-      display: flex;
-      justify-content: space-around;
-      list-style: none;
+  }
+    .header__communication {
+      margin-top: 30px;
     }
-
   }
-
-  .header__communication {
-    margin-top: 30px;
-  }
-}
 </style>
