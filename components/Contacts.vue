@@ -9,8 +9,8 @@
             Fort Lauderdale Florida 33304
             United States</p>
           <div class="contact__phone">
-            <img src="/images/phone-call-auricular-symbol-in-black_icon-icons.com_56483 1.png" alt=""
-              class="contact__phone-img">
+            <img src="/images/icon-phone-call.png" alt=""
+                 class="contact__phone-img">
             <p>Contact Details</p>
           </div>
           <div class="contact-number"><a href="tel:+79547346202">954-734-6202</a> </div>
@@ -18,7 +18,7 @@
         </div>
         <div class="contacts__time-working-block">
           <div class="time__working-title-block">
-            <img src="/images/clock-with-white-face_icon-icons.com_72804 1.png" alt="" class="time__working-img">
+            <img src="/images/icon-clock.png" alt="" class="time__working-img">
             <h3 class="time__working-title">Open Hours</h3>
           </div>
           <ul class="contacts__time-working">
@@ -98,7 +98,7 @@
 }
 
 .contacts-title strong {
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 48px;
 }
 
@@ -238,8 +238,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20 auto;
-    margin-top: 10px;
+    margin: 10px auto 20px;
     max-width: 1474px;
 
   }

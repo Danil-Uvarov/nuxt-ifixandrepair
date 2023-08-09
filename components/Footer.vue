@@ -3,7 +3,7 @@
     <section class="footer__container">
       <div class="primary__footer ">
         <div class="primary__block-logo">
-          <a href="https://ifixandrepair.com/"><img src="/images/logo 1.png" alt=""></a>
+          <a href="https://ifixandrepair.com/"><img src="/images/logo.png" alt=""></a>
           <p class="primary-slogan">Broken? Not Anymore.</p>
         </div>
         <nav class="primary__navigation">
@@ -14,18 +14,18 @@
           </ul>
           <ul class="navigation__social-list">
             <li class="navigation__social-link"><a href="https://facebook.com/ifixandrepair" class="social-block"><img
-                  src="/images/footerFacebook.png" alt="">
+                src="/images/footer-facebook.png" alt="">
                 <p>Facebook</p>
               </a>
             </li>
             <li class="navigation__social-link"><a href="https://instagram.com/ifixandrepairofficial"
-                class="social-block"><img src="/images/footerInstagramm.png" alt="">
+                class="social-block"><img src="/images/footer-instagramm.png" alt="">
                 <p>Instagram</p>
               </a>
             </li>
             <li class="navigation__social-link">
               <a href="https://www.google.com/maps/search/iFixandRepair/" class="social-block"><img
-                  src="/images/footerGoogle.png" alt="">
+                  src="/images/footer-google.png" alt="">
                 <p>Google</p>
               </a>
             </li>
@@ -65,9 +65,8 @@
 }
 
 .primary-slogan {
-  margin: 0px;
-  margin-top: 57px;
-  font-weight: 500px;
+  margin: 57px 0 0;
+  font-weight: 500;
   font-size: 22px;
   color: #737375;
 }
@@ -177,7 +176,7 @@
 
   .primary-slogan {
     margin-top: 27px;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 22px;
     color: #737375;
   }

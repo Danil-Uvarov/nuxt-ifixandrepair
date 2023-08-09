@@ -4,7 +4,7 @@
     <nav class="steps__container">
       <ul class="step__list">
         <li class="step__block-img">
-          <img src="/images/stepNavigation.png" alt="" class="step__link-img">
+          <img src="/images/step-navigation.png" alt="" class="step__link-img">
           <div class="step-number">01</div>
         </li>
         <li class="step__link-name">
@@ -15,7 +15,7 @@
       </ul>
       <ul class="step__list">
         <li class="step__block-img">
-          <img src="/images/stepPhone.png" alt="" class="step__link-img">
+          <img src="/images/step-phone.png" alt="" class="step__link-img">
           <div class="step-number">02</div>
         </li>
         <li class="step__link-name">
@@ -26,7 +26,7 @@
       </ul>
       <ul class="step__list">
         <li class="step__block-img">
-          <img src="/images/stepSelection.png" alt="" class="step__link-img">
+          <img src="/images/step-selection.png" alt="" class="step__link-img">
           <div class="step-number">03</div>
         </li>
         <li class="step__link-name">
@@ -37,7 +37,7 @@
       </ul>
       <ul class="step__list">
         <li class="step__block-img">
-          <img src="/images/stepContact.png" alt="" class="step__link-img">
+          <img src="/images/step-contact.png" alt="" class="step__link-img">
           <div class="step-number">04</div>
         </li>
         <li class="step__link-name">
@@ -53,10 +53,10 @@
       for your help. You won’t have to worry about it again.
     </h6>
     <div class="block__images">
-      <img src="/images/stepsShop.png" alt="">
-      <img src="/images/stepsReception.png" alt="">
-      <img src="/images/stepsRacks.png" alt="">
-      <img src="/images/stepsWorking.png" alt="">
+      <img src="/images/steps-shop.png" alt="">
+      <img src="/images/steps-reception.png" alt="">
+      <img src="/images/steps-racks.png" alt="">
+      <img src="/images/steps-working.png" alt="">
     </div>
   </section>
 </template>

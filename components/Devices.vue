@@ -7,49 +7,49 @@
       <ul class="devices__items-list">
         <li class="device__item">
           <div class="divice__item-block">
-            <img src="/images/smartphone 1.png" alt="" class="device-img">
+            <img src="/images/smartphone.png" alt="" class="device-img">
             <h5 class="device-name">iphone</h5>
           </div>
         </li>
         <li class="device__item">
           <div class="divice__item-block">
-            <img src="/images/smartphone2 1.png" alt="" class="device-img">
+            <img src="/images/smartphone2.png" alt="" class="device-img">
             <h5 class="device-name">Samsung</h5>
           </div>
         </li>
         <li class="device__item">
           <div class="divice__item-block">
-            <img src="/images/other-smartphones 1.png" alt="" class="device-img">
+            <img src="/images/other-smartphones.png" alt="" class="device-img">
             <h5 class="device-name">Smartphone</h5>
           </div>
         </li>
         <li class="device__item">
           <div class="divice__item-block">
-            <img src="/images/tablet 1.png" alt="" class="device-img">
+            <img src="/images/tablet.png" alt="" class="device-img">
             <h5 class="device-name">Tablet</h5>
           </div>
         </li>
         <li class="device__item">
           <div class="divice__item-block">
-            <img src="/images/macbook 1.png" alt="" class="device-img">
+            <img src="/images/macbook.png" alt="" class="device-img">
             <h5 class="device-name">Computer</h5>
           </div>
         </li>
         <li class="device__item">
           <div class="divice__item-block">
-            <img src="/images/game-console 1.png" alt="" class="device-img">
+            <img src="/images/game-console.png" alt="" class="device-img">
             <h5 class="device-name">Gaming console</h5>
           </div>
         </li>
         <li class="device__item">
           <div class="divice__item-block">
-            <img src="/images/drone 1.png" alt="" class="device-img">
+            <img src="/images/icon-drone.png" alt="" class="device-img">
             <h5 class="device-name">D J I Drone</h5>
           </div>
         </li>
         <li class="device__item">
           <div class="divice__item-block">
-            <img src="/images/smartwatch 1.png" alt="" class="device-img">
+            <img src="/images/smartwatch.png" alt="" class="device-img">
             <h5 class="device-name">Other</h5>
           </div>
         </li>
