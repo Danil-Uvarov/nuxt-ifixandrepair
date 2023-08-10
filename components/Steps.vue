@@ -68,10 +68,16 @@
     </div>
   </section>
 </template>
-<script setup lang ="ts"></script>
-<style>
-.steps__wrapper {
+<script setup lang ="ts">
 
+</script>
+<style>
+* {
+  --number-rows: (100%/2);
+  --margin-size: (1 * 2px / 2)
+}
+
+.steps__wrapper {
   padding-top: 65px;
   padding-bottom: 140px;
   background-color: #F5F5FF;
@@ -221,10 +227,56 @@
   }
 
   .steps__container {
+    flex-wrap: wrap;
     margin-top: 68px;
     display: flex;
     justify-content: center;
     gap: 38px;
+  }
+
+  .step__list {
+    width: calc(var(--number-rows) - 1 * 38px / 2);
+  }
+
+  .step__img-wrapper {
+    border-radius: 50%;
+    padding: 30px;
+    background-color: #ffff;
+  }
+
+  .step__link-img {
+    width: 50px;
+  }
+
+  .step-number {
+    z-index: 3;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #fff;
+  }
+
+  .step__link-name {
+    text-align: center;
+    margin-top: 20px;
+    list-style: none;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000;
+  }
+
+  .step__link-description {
+    text-align: center;
+    margin-top: 20px;
+    list-style: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #737375;
+    text-align: center
   }
 
   .block__images {
@@ -234,8 +286,7 @@
   }
 
   .block__images img {
-    width: calc(100% / 1 - 2 * 2px / 2);
-    width: 100%;
+    width: calc(var(--number-rows) - var(--margin-size));
 
   }
 

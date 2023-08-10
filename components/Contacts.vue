@@ -81,7 +81,6 @@
 }
 
 .contacts__description-wrapper {
-  padding: 0 20px;
   max-width: 720px;
 }
 
@@ -151,8 +150,6 @@
   margin-top: 24px;
 }
 
-
-
 .contact__phone p {
   margin: 0px;
   padding: 0px;
@@ -188,7 +185,6 @@
   width: 100%;
   max-width: 37px;
 }
-
 
 .contacts__time-working-block {
   display: flex;
@@ -239,6 +235,11 @@
 }
 
 @media (max-width:1370px) {
+  .contacts__description-wrapper {
+    width: 50%;
+    padding: 0 20px;
+  }
+
   .google-navigation {
     width: 50%;
     max-height: 321px;
@@ -256,13 +257,9 @@
     font-size: 30px;
   }
 
-
-
   .contacts__description-block {
     gap: 16px;
   }
-
-
 
   .contact-location {
     font-size: 16px;
@@ -271,7 +268,6 @@
   .contact-location span {
     font-size: 20px;
   }
-
 
   .contact__phone p {
     font-size: 20px;
@@ -312,7 +308,6 @@
   }
 
   .contact__time-list {
-
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -326,13 +321,15 @@
 }
 
 @media (max-width:1070px) {
+
   .contacts {
     display: flex;
     flex-direction: column;
-    padding: 20px 0px 20px 0px;
+    padding: 20px;
   }
 
   .google-navigation {
+    max-width: none;
     width: 100%;
     height: 150px;
   }
@@ -344,12 +341,11 @@
     gap: 20px;
     align-items: center;
     margin-bottom: 20px;
-    padding: 0px 20px;
+
   }
 
   .contacts-title {
     text-align: center;
-
   }
 
 

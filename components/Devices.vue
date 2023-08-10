@@ -74,6 +74,7 @@
   font-weight: 400;
   font-size: 48px;
   position: relative;
+  text-align: center;
 }
 
 .devices-template::after {
@@ -119,8 +120,6 @@
   align-items: center;
 
 }
-
-
 
 .device__item {
   box-shadow: 5px 10px 10px 5px #F7F7F7;

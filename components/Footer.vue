@@ -16,13 +16,13 @@
                 us</a></li>
           </ul>
           <ul class="navigation__social-list">
-            <li class="navigation__social-link"><a :href="googleMaps" target="_blank" class="social-block"><img
-                  src="/images/footer-facebook.png" alt="">
+            <li class="navigation__social-link"><a href="https://facebook.com/ifixandrepair" target="_blank"
+                class="social-block"><img src="/images/footer-facebook.png" alt="">
                 <p>Facebook</p>
               </a>
             </li>
-            <li class="navigation__social-link"><a :href="googleMaps" target="_blank" class="social-block"><img
-                  src="/images/footer-instagramm.png" alt="">
+            <li class="navigation__social-link"><a href="https://instagram.com/ifixandrepairofficial" target="_blank"
+                class="social-block"><img src="/images/footer-instagramm.png" alt="">
                 <p>Instagram</p>
               </a>
             </li>
@@ -49,7 +49,7 @@ import { googleMaps } from '../consts';
   margin-top: 140px;
   display: flex;
   justify-content: center;
-  padding: 0 20px 0px 20px;
+  padding: 0 20px 30px 20px;
 }
 
 .footer-container {
@@ -179,7 +179,7 @@ import { googleMaps } from '../consts';
 @media(max-width: 1200px) {
   .footer__wrapper {
     margin-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     display: flex;
     justify-content: center;
   }

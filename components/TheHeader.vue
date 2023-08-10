@@ -13,12 +13,12 @@
               <img src="/images/icon-google-maps.png" alt="" class="geolocation-img"></a>
           </li>
           <li class="communication__facebook">
-            <a :href="googleMaps" target="_blank">
+            <a href="https://facebook.com/ifixandrepair" target="_blank">
               <img src="/images/icon-facebook.png" alt="" class="facebook-img">
             </a>
           </li>
           <li class="communication__instagram">
-            <a :href="googleMaps" target="_blank">
+            <a href="https://instagram.com/ifixandrepairofficial" target="_blank">
               <img src="/images/icon-instagram.png" alt="" class="instagram-img">
             </a>
           </li>
