@@ -1,7 +1,7 @@
 <template>
   <section class="baner">
     <a target="_blank" :href="googleMaps" class="baner-link">
-      <h2 class="baner__button">Help My Device</h2>
+      <h2 class="baner__button-text">Help My Device</h2>
     </a>
   </section>
 </template>
@@ -16,8 +16,7 @@ import { googleMaps } from '../consts';
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center 0px;
-  padding-top: 97px;
-  padding-bottom: 97px;
+  padding: 97px 20px;
   background-image: url("/images/baner.png");
 
 }
@@ -28,7 +27,7 @@ import { googleMaps } from '../consts';
   text-decoration: none;
 }
 
-.baner__button {
+.baner__button-text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,8 +49,8 @@ import { googleMaps } from '../consts';
     padding-bottom: 57px;
   }
 
-  .baner__button {
-    font-size: 35px;
+  .baner__button-text {
+    font-size: 32px;
   }
 }
 </style>

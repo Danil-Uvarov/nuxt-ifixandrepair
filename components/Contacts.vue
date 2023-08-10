@@ -247,7 +247,6 @@
 
   .contacts-title {
     width: 100%;
-    position: relative;
     font-weight: 400;
     font-size: 30px;
   }
@@ -322,6 +321,10 @@
 
 @media (max-width:1070px) {
 
+  .contacts__description-wrapper {
+    width: 100%;
+  }
+
   .contacts {
     display: flex;
     flex-direction: column;
@@ -335,6 +338,7 @@
   }
 
   .contacts__description-block {
+
     margin-top: 30px;
     display: flex;
     flex-direction: column;
@@ -346,6 +350,7 @@
 
   .contacts-title {
     text-align: center;
+    width: 100%;
   }
 
 

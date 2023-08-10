@@ -72,11 +72,6 @@
 
 </script>
 <style>
-* {
-  --number-rows: (100%/2);
-  --margin-size: (1 * 2px / 2)
-}
-
 .steps__wrapper {
   padding-top: 65px;
   padding-bottom: 140px;
@@ -235,7 +230,7 @@
   }
 
   .step__list {
-    width: calc(var(--number-rows) - 1 * 38px / 2);
+    width: calc(100%/2 - 1 * 38px / 2);
   }
 
   .step__img-wrapper {
@@ -286,7 +281,7 @@
   }
 
   .block__images img {
-    width: calc(var(--number-rows) - var(--margin-size));
+    width: calc(100%/2 - 1 * 2px /2);
 
   }
 
