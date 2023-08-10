@@ -1,53 +1,61 @@
 <template>
   <section class="steps__wrapper">
     <h2 class="container__title">How to start <strong>your help?</strong></h2>
-    <nav class="steps__container">
-      <ul class="step__list">
-        <li class="step__block-img">
-          <img src="/images/step-navigation.png" alt="" class="step__link-img">
+    <ul class="steps__container">
+      <li class="step__list">
+        <div class="step__block-img">
+          <div class="step__img-wrapper">
+            <img src="/images/step-navigation.png" alt="" class="step__link-img">
+          </div>
           <div class="step-number">01</div>
-        </li>
-        <li class="step__link-name">
+        </div>
+        <div class="step__link-name">
           Location Search
-        </li>
-        <li class="step__link-description">Write your Zip Code and find the nearest store of your location.
-        </li>
-      </ul>
-      <ul class="step__list">
-        <li class="step__block-img">
-          <img src="/images/step-phone.png" alt="" class="step__link-img">
+        </div>
+        <div class="step__link-description">Write your Zip Code and find the nearest store of your location.
+        </div>
+      </li>
+      <li class="step__list">
+        <div class="step__block-img">
+          <div class="step__img-wrapper">
+            <img src="/images/step-phone.png" alt="" class="step__link-img">
+          </div>
           <div class="step-number">02</div>
-        </li>
-        <li class="step__link-name">
+        </div>
+        <div class="step__link-name">
           Device Selection
-        </li>
-        <li class="step__link-description">Select the device that you want
-        </li>
-      </ul>
-      <ul class="step__list">
-        <li class="step__block-img">
-          <img src="/images/step-selection.png" alt="" class="step__link-img">
+        </div>
+        <div class="step__link-description">Select the device that you want
+        </div>
+      </li>
+      <li class="step__list">
+        <div class="step__block-img">
+          <div class="step__img-wrapper">
+            <img src="/images/step-selection.png" alt="" class="step__link-img">
+          </div>
           <div class="step-number">03</div>
-        </li>
-        <li class="step__link-name">
+        </div>
+        <div class="step__link-name">
           Selection
-        </li>
-        <li class="step__link-description">Choose your phones needs.
-        </li>
-      </ul>
-      <ul class="step__list">
-        <li class="step__block-img">
-          <img src="/images/step-contact.png" alt="" class="step__link-img">
+        </div>
+        <div class="step__link-description">Choose your phones needs.
+        </div>
+      </li>
+      <li class="step__list">
+        <div class="step__block-img">
+          <div class="step__img-wrapper">
+            <img src="/images/step-contact.png" alt="" class="step__link-img">
+          </div>
           <div class="step-number">04</div>
-        </li>
-        <li class="step__link-name">
+        </div>
+        <div class="step__link-name">
           Contact Info
-        </li>
-        <li class="step__link-description">In order to contact you, it’s
+        </div>
+        <div class="step__link-description">In order to contact you, it’s
           important to have your info.
-        </li>
-      </ul>
-    </nav>
+        </div>
+      </li>
+    </ul>
     <h6 class="step__descripion-text">After that, one of our expert technicians will contact you to schedule an
       appointment
       for your help. You won’t have to worry about it again.
@@ -63,10 +71,13 @@
 <script setup lang ="ts"></script>
 <style>
 .steps__wrapper {
+
   padding-top: 65px;
   padding-bottom: 140px;
   background-color: #F5F5FF;
   display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
@@ -108,16 +119,15 @@
 }
 
 .steps__container {
+  flex-wrap: wrap;
   margin-top: 148px;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 38px;
 }
 
 .step__list {
-  margin: 0px;
-  padding: 0px;
+  width: calc(100% / 4 - 3 * 38px / 4);
   max-width: 336px;
   display: flex;
   flex-direction: column;
@@ -130,7 +140,6 @@
   top: 0px;
   right: 0px;
   position: absolute;
-  list-style: none;
   font-weight: 700;
   font-size: 24px;
   border-radius: 50%;
@@ -141,17 +150,23 @@
 .step__block-img {
   list-style: none;
   position: relative;
+
+}
+
+.step__img-wrapper {
+  border-radius: 50%;
+  padding: 40px;
+  background-color: #ffff;
 }
 
 .step__link-img {
-  padding: 50px;
-  border-radius: 50%;
-  background-color: #ffff;
+  width: 100%;
   max-width: 99px;
 
 }
 
 .step__link-name {
+  text-align: center;
   margin-top: 20px;
   list-style: none;
   font-weight: 400;
@@ -160,6 +175,7 @@
 }
 
 .step__link-description {
+  text-align: center;
   margin-top: 20px;
   list-style: none;
   font-weight: 400;
@@ -182,7 +198,6 @@
 .block__images {
   display: flex;
   justify-content: center;
-  flex-wrap: nowrap;
   gap: 11px;
 }
 
@@ -195,7 +210,7 @@
 
 
 
-@media(max-width: 1120px) {
+@media(max-width: 700px) {
   .steps__wrapper {
     padding-top: 35px;
     padding-bottom: 60px;
@@ -209,17 +224,18 @@
     margin-top: 68px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 38px;
   }
 
   .block__images {
+    flex-wrap: wrap;
     gap: 2px;
+
   }
 
   .block__images img {
-    width: calc(100% / 4 - 3 * 2px / 4);
-
+    width: calc(100% / 1 - 2 * 2px / 2);
+    width: 100%;
 
   }
 

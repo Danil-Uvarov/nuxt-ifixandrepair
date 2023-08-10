@@ -55,12 +55,15 @@
     </div>
     <iframe class="google-navigation"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.836919705086!2d-80.11544822580353!3d26.136859777118104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d901cf478d556f%3A0x15cccb01ecbb6015!2z0JPQsNC70LvQtdGA0LjRjyDRjdGCINCk0L7RgNGCLdCb0L7QtNC10YDQtNC10LnQuw!5e0!3m2!1sru!2sru!4v1690925424653!5m2!1sru!2sru"
-      width="725" height="439" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      width="50%" height="439" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
   </section>
 </template>
 
-<script setup lang ="ts"></script>
+<script setup lang ="ts">
+
+
+</script>
 <style>
 .google-navigation {
   max-width: 725px;
@@ -71,16 +74,14 @@
 .contacts {
   width: 100%;
   display: flex;
-  justify-content: center;
+  align-items: center;
   justify-content: center;
   padding: 95px 20px 79px 20px;
 
 }
 
 .contacts__description-wrapper {
-  width: 100%;
   padding: 0 20px;
-  width: 50%;
   max-width: 720px;
 }
 
@@ -192,11 +193,13 @@
 .contacts__time-working-block {
   display: flex;
   flex-direction: column;
+
 }
 
 .time__working-title-block {
   display: flex;
   align-items: center;
+
 }
 
 .time__working-title {
@@ -223,12 +226,10 @@
 }
 
 .contact__time-list {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-  gap: 40px;
+
   display: flex;
   justify-content: space-between;
+  gap: 40px;
 }
 
 .contact__time-link {
@@ -237,31 +238,103 @@
   font-size: 20px;
 }
 
-@media () {
+@media (max-width:1370px) {
+  .google-navigation {
+    width: 50%;
+    max-height: 321px;
+  }
+
+  .contacts-title {
+    width: 100%;
+    position: relative;
+    font-weight: 400;
+    font-size: 30px;
+  }
+
+  .contacts-title strong {
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+
+
+  .contacts__description-block {
+    gap: 16px;
+  }
+
+
+
+  .contact-location {
+    font-size: 16px;
+  }
+
+  .contact-location span {
+    font-size: 20px;
+  }
+
+
+  .contact__phone p {
+    font-size: 20px;
+  }
+
+
+
+  .contact-number a {
+    font-size: 16px;
+  }
+
+  .contact-email {}
+
+  .contact-email a {
+    font-size: 16px;
+  }
+
+  .contact__phone-img {
+    width: 100%;
+    max-width: 27px;
+  }
+
+  .time__working-title {
+    font-size: 20px;
+  }
+
+  .time__working-img {
+    width: 100%;
+    max-width: 26px;
+  }
+
+  .contacts__time-working {
+    margin: 0px;
+    margin-top: 18px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact__time-list {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .contact__time-link {
+    white-space: nowrap;
+    font-weight: 300;
+    font-size: 16px;
+  }
+}
+
+@media (max-width:1070px) {
   .contacts {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 10px auto 20px;
-    max-width: 1474px;
-
+    padding: 20px 0px 20px 0px;
   }
 
   .google-navigation {
-
-    margin-top: 20px;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-
-  .contacts__description {}
-}
-
-@media (720) {
-  .contacts {
-    padding: 0px 20px 20px 20px;
+    width: 100%;
+    height: 150px;
   }
 
   .contacts__description-block {
@@ -271,17 +344,14 @@
     gap: 20px;
     align-items: center;
     margin-bottom: 20px;
-
-  }
-
-  .google-navigation {
-    width: 100%;
-    height: 150px;
+    padding: 0px 20px;
   }
 
   .contacts-title {
     text-align: center;
+
   }
+
 
   .contacts-title::before {
     content: "";
@@ -328,6 +398,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 
 }
