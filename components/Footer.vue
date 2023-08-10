@@ -3,35 +3,37 @@
     <section class="footer__container">
       <div class="primary__footer ">
         <div class="primary__block-logo">
-          <a href="https://ifixandrepair.com/"><img src="/images/logo.png" alt=""></a>
+          <a target="_blank" :href="googleMaps"><img src="/images/logo.png" alt="" class="primary__logo-img"></a>
           <p class="primary-slogan">Broken? Not Anymore.</p>
         </div>
         <nav class="primary__navigation">
           <ul class="navigation__list">
-            <li class="navigation__link"><a href="https://ifixandrepair.com/locations">Locations</a></li>
-            <li class="navigation__link"><a href="https://ifixandrepair.com/about">About</a></li>
-            <li class="navigation__link"><a href="https://ifixandrepair.com/contact/">Contact us</a></li>
+            <li class="navigation__link"><a target="_blank" :href="googleMaps">Locations</a>
+            </li>
+            <li class="navigation__link"><a target="_blank" :href="googleMaps">About</a>
+            </li>
+            <li class="navigation__link"><a target="_blank" :href="googleMaps">Contact
+                us</a></li>
           </ul>
           <ul class="navigation__social-list">
-            <li class="navigation__social-link"><a href="https://facebook.com/ifixandrepair" class="social-block"><img
-                src="/images/footer-facebook.png" alt="">
+            <li class="navigation__social-link"><a :href="googleMaps" target="_blank" class="social-block"><img
+                  src="/images/footer-facebook.png" alt="">
                 <p>Facebook</p>
               </a>
             </li>
-            <li class="navigation__social-link"><a href="https://instagram.com/ifixandrepairofficial"
-                class="social-block"><img src="/images/footer-instagramm.png" alt="">
+            <li class="navigation__social-link"><a :href="googleMaps" target="_blank" class="social-block"><img
+                  src="/images/footer-instagramm.png" alt="">
                 <p>Instagram</p>
               </a>
             </li>
             <li class="navigation__social-link">
-              <a href="https://www.google.com/maps/search/iFixandRepair/" class="social-block"><img
-                  src="/images/footer-google.png" alt="">
+              <a :href="googleMaps" target="_blank" class="social-block"><img src="/images/footer-google.png" alt="">
                 <p>Google</p>
               </a>
             </li>
           </ul>
         </nav>
-        <div class="email"><span>Email:</span><a href="mailto:info@ifixandrepair.com">info@ifixandrepair.com</a></div>
+        <div class="email"><span>Email:</span><a href="mailto:info @ifixandrepair.com">info@ifixandrepair.com</a></div>
       </div>
       <h6 class="footer__secondary">
         Copyright 2023 iFixandRepair by <strong>iFixandRepair </strong>| All Rights Reserved
@@ -39,12 +41,15 @@
     </section>
   </footer>
 </template>
-<script setup lang ="ts"></script>
+<script setup lang ="ts">
+import { googleMaps } from '../consts';
+</script>
 <style>
 .footer__wrapper {
   margin-top: 140px;
   display: flex;
   justify-content: center;
+  padding: 0 20px 0px 20px;
 }
 
 .footer-container {
@@ -62,6 +67,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.primary__logo-img {
+  width: 100%;
+
 }
 
 .primary-slogan {
@@ -169,12 +179,13 @@
 @media(max-width: 1200px) {
   .footer__wrapper {
     margin-top: 40px;
-    padding: 20px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
   }
 
   .primary-slogan {
+
     margin-top: 27px;
     font-weight: 500;
     font-size: 22px;
@@ -197,9 +208,24 @@
 
   .primary__block-logo {
     display: flex;
-
+    width: 100%;
     flex-direction: column;
     align-items: center;
+  }
+
+  .primary__logo-img {
+    width: 300px;
+  }
+
+  .email span {
+    font-weight: 400;
+    font-size: 14px;
+    color: #737375;
+  }
+
+  .footer__secondary {
+    font-size: 16px;
+    text-align: center;
   }
 }
 </style>

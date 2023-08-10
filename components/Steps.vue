@@ -181,9 +181,16 @@
 
 .block__images {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: nowrap;
   gap: 11px;
+}
+
+.block__images img {
+  width: calc(100% / 4 - 3 * 11px / 4);
+  height: auto;
+  max-width: 443px;
+
 }
 
 
@@ -206,6 +213,15 @@
     gap: 38px;
   }
 
+  .block__images {
+    gap: 2px;
+  }
+
+  .block__images img {
+    width: calc(100% / 4 - 3 * 2px / 4);
+
+
+  }
 
 }
 </style>

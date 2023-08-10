@@ -9,8 +9,7 @@
             Fort Lauderdale Florida 33304
             United States</p>
           <div class="contact__phone">
-            <img src="/images/icon-phone-call.png" alt=""
-                 class="contact__phone-img">
+            <img src="/images/icon-phone-call.png" alt="" class="contact__phone-img">
             <p>Contact Details</p>
           </div>
           <div class="contact-number"><a href="tel:+79547346202">954-734-6202</a> </div>
@@ -53,9 +52,7 @@
           </ul>
         </div>
       </div>
-
     </div>
-
     <iframe class="google-navigation"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.836919705086!2d-80.11544822580353!3d26.136859777118104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d901cf478d556f%3A0x15cccb01ecbb6015!2z0JPQsNC70LvQtdGA0LjRjyDRjdGCINCk0L7RgNGCLdCb0L7QtNC10YDQtNC10LnQuw!5e0!3m2!1sru!2sru!4v1690925424653!5m2!1sru!2sru"
       width="725" height="439" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -66,30 +63,29 @@
 <script setup lang ="ts"></script>
 <style>
 .google-navigation {
-  margin-right: 10px;
   max-width: 725px;
-  width: 100%;
-
+  width: 50%;
+  margin: 0px;
 }
 
-.frame__block {}
-
-
-
 .contacts {
+  width: 100%;
   display: flex;
   justify-content: center;
-  margin: 0 auto;
-  margin-top: 95px;
-  margin-bottom: 79px;
+  justify-content: center;
+  padding: 95px 20px 79px 20px;
+
 }
 
 .contacts__description-wrapper {
-  max-width: 730px;
-
+  width: 100%;
+  padding: 0 20px;
+  width: 50%;
+  max-width: 720px;
 }
 
 .contacts-title {
+  width: 100%;
   margin: 0px;
   padding: 0px;
   position: relative;
@@ -127,7 +123,6 @@
 .contacts__description-block {
   margin-top: 30px;
   display: flex;
-
   gap: 36px;
 }
 
@@ -177,6 +172,7 @@
 }
 
 .contact-email {
+  width: 100%;
   margin-top: 8px;
 }
 
@@ -187,7 +183,11 @@
   color: #000
 }
 
-.contact__phone-img {}
+.contact__phone-img {
+  width: 100%;
+  max-width: 37px;
+}
+
 
 .contacts__time-working-block {
   display: flex;
@@ -209,7 +209,10 @@
   color: #000;
 }
 
-.time__working-img {}
+.time__working-img {
+  width: 100%;
+  max-width: 36px;
+}
 
 .contacts__time-working {
   margin: 0px;
@@ -229,11 +232,12 @@
 }
 
 .contact__time-link {
+  white-space: nowrap;
   font-weight: 300;
   font-size: 20px;
 }
 
-@media (max-width: 1450px) {
+@media () {
   .contacts {
     display: flex;
     flex-direction: column;
@@ -244,7 +248,7 @@
   }
 
   .google-navigation {
-    padding: 0px 20px;
+
     margin-top: 20px;
     margin: 0 auto;
     margin-top: 20px;
@@ -255,7 +259,7 @@
   .contacts__description {}
 }
 
-@media (max-width: 720px) {
+@media (720) {
   .contacts {
     padding: 0px 20px 20px 20px;
   }
@@ -273,7 +277,6 @@
   .google-navigation {
     width: 100%;
     height: 150px;
-
   }
 
   .contacts-title {

@@ -1,11 +1,12 @@
 <template>
   <Head>
     <Title>Device Repairs - iFixandRepair</Title>
-    <Meta name="description" content="Find Repair Services for iPhone, Google, Samsung, Motorola, Macs, Laptops, and even Blackberries. We Repair All Kind of Electronics." />
+    <Meta name="description"
+      content="Find Repair Services for iPhone, Google, Samsung, Motorola, Macs, Laptops, and even Blackberries. We Repair All Kind of Electronics." />
 
     <NoScript>
       <!-- /Yandex.Metrika counter -->
-      <div><img src="https://mc.yandex.ru/watch/94571568" style="position:absolute; left:-9999px;" alt=""/></div>
+      <div><img src="https://mc.yandex.ru/watch/94571568" style="position:absolute; left:-9999px;" alt="" /></div>
     </NoScript>
   </Head>
 

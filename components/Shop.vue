@@ -24,7 +24,9 @@
   justify-content: center;
 }
 
-.shop-img {}
+.shop-img {
+  width: 100% ;
+}
 
 .shop__title {
   max-width: 720px;

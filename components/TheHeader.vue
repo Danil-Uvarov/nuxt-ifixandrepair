@@ -9,21 +9,21 @@
       <nav class="header__communication communication">
         <ul class="communication__list">
           <li class="communication__geolocation">
-            <a href="https://ifixandrepair.com/locations">
+            <a :href="googleMaps" target="_blank">
               <img src="/images/icon-google-maps.png" alt="" class="geolocation-img"></a>
           </li>
           <li class="communication__facebook">
-            <a href="https://facebook.com/ifixandrepair">
+            <a :href="googleMaps" target="_blank">
               <img src="/images/icon-facebook.png" alt="" class="facebook-img">
             </a>
           </li>
           <li class="communication__instagram">
-            <a href="https://instagram.com/ifixandrepairofficial">
+            <a :href="googleMaps" target="_blank">
               <img src="/images/icon-instagram.png" alt="" class="instagram-img">
             </a>
           </li>
           <li class="communication__phone">
-            <a href="https://ifixandrepair.com/contact">
+            <a :href="googleMaps" target="_blank">
               <img src="/images/icon-phone.png" alt="" class="phone-img">
             </a>
           </li>
@@ -32,10 +32,12 @@
     </section>
   </header>
 </template>
+<script setup lang="ts">
+import { googleMaps } from '../consts';
+</script>
 
 <style>
-.header {
-}
+.header {}
 
 .header-container {
   margin: 70px 0 55px 0;
@@ -73,29 +75,21 @@
   list-style: none;
 }
 
-.communication__geolocation {
-}
+.communication__geolocation {}
 
-.geolocation-img {
-}
+.geolocation-img {}
 
-.communication__facebook {
-}
+.communication__facebook {}
 
-.facebook-img {
-}
+.facebook-img {}
 
-.communication__instagram {
-}
+.communication__instagram {}
 
-.instagram-img {
-}
+.instagram-img {}
 
-.communication__phone {
-}
+.communication__phone {}
 
-.phone-img {
-}
+.phone-img {}
 
 
 @media (max-width: 1100px) {
@@ -125,4 +119,4 @@
     margin-top: 30px;
   }
 }
-</style>
+</style>../consts
